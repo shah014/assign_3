@@ -18,3 +18,4 @@ with open("my_info.json", "w") as write:
 with open("my_info.json", "r") as read:
     res = json.load(read)
 print(res)
+
