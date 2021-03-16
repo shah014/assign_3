@@ -10,11 +10,9 @@ f = int(input("Enter the element to find: "))
 def binary_search(lst, f):
     for i in range(len(lst)):
         if f in lst:
-            return lst.index(f)
+            return f'The index of {f} is: {lst.index(f)}'
         else:
             return -1
 
 
 print(binary_search(lst, f))
-
-
