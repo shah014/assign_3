@@ -1,5 +1,5 @@
 lst = []
-n = int(input("Enter the elements in list: "))
+n = int(input("Enter the number of elements in list: "))
 for i in range(n):
     k = int(input("Enter element to add: "))
     lst.append(k)
